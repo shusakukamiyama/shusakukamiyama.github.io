@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>spolabo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script>
+    $(function(){
+        $('.NavMenu').hide();
+        $(".headC").click(function(){
+            $(".NavMenu").slideToggle();
+        });
+    });
+    $(function(){
+        $(".navlist").click(function(){
+            $(".NavMenu").hide();
+        });
+    })
+    </script>    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="container_small">
+                <a href="#"><img src="logo.svg" alt=""></a>
+                <button type="button" class="headC">
+                    <img src="img/hambergar.svg" alt="" class="icon">
+                </button>
+            </div>
+            <div class="container_big">
+                <a href="#"><img src="logo.svg" alt=""></a> 
+                <nav>
+                    <ul>
+                        <li class="navlist"><a href="#about">スポラボ放送局とは</a></li>
+                        <li class="navlist"><a href="#contents">コンテンツのご紹介</a></li>
+                        <li class="navlist"><a href="#features">３つの特徴</a></li>
+                        <li class="navlist"><a href="#gifts">限定特典</a></li>
+                    </ul>
+                </nav>  
+            </div>
+            <div class="container_sp">
+                <nav class="NavMenu">
+                    <ul>
+                        <li class="navlist"><a href="#about">スポラボ放送局とは</a></li>
+                        <li class="navlist"><a href="#contents">コンテンツのご紹介</a></li>
+                        <li class="navlist"><a href="#features">３つの特徴</a></li>
+                        <li class="navlist"><a href="#gifts">限定特典</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </header>
+    <section class="conA">
+        <div class="container">
+            <div class="message">
+                <p>スポラボの<br class="br-sp">オリジナル<br class="br-sp">コンテンツで</p>
+                <p>あなたの<br class="br-sp">スポーツ指導<br class="br-sp"><span>・</span>スポーツ臨床</p>
+                <p>のレベルが上がる</p>
+            </div>
+            <div class="link">
+                <button>
+                    <a href="#enter">無料特典とともに入会する <i class="fas fa-chevron-right"></i></a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="conB" id="about">
+        <div class="top">
+            <p>スポラボ放送局とは</p>
+        </div>
+        <div class="contents">
+            <div class="messages">
+                <div class="message">
+                    <p>スポラボで厳選した１月に１つのテーマに対する</p>
+                    <p>実践的ノウハウをオンラインで見て学んでいただけます。</p>
+                </div>
+                <div class="message">
+                    <p>実際に講師の方が現場で指導や臨床にあたる様子をモデル活用して撮影するなど、</p>
+                    <p>リアルな現場をお伝えしています。</p>
+                </div>
+                <div class="message">
+                    <p>プロ講師による臨床のポイントや実際の指導現場など、</p>
+                    <p>普段はふれることのできない実践的なノウハウをご覧いただけます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="conC" id="contents">
+        <div class="top">
+            <p>実際にスポラボ放送局で</p>
+            <p>使われている動画の一部をご覧ください</p>
+        </div>
+        <div class="video_content">
+            <iframe src="https://player.vimeo.com/video/282188133" 
+            width= "720px"
+            height="405px" 
+            style="margin-top:0px;"
+            style="margin-bottom:0px;"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/284064317" 
+            width= "720px"
+            height="405px"
+            frameborder="0"  mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div class="theme">
+            <p>テーマ：障害予防のためのPysical Check</p>
+            <p>講師：一般社団法人スポーツサイエンスラボラトリー代表理事 亀山顕太郎</p>
+        </div>
+    </section>
+    <section class="conD">
+            <div class="top">
+                <p>実際の動画はいかがでしたか？</p>
+            </div>
+            <div class="message">
+                <p>実際の現場で役立つ、すぐに実践で使えるノウハウを</p>
+                <p>スポラボ放送局ではご用意しています。</p>
+            </div>
+            <div class="link">
+                <button>
+                    <a href="#enter">無料特典とともに入会する <i class="fas fa-chevron-right"></i></a>
+                </button>
+            </div>
+    </section>
+    <section class="conE" id="features">
+        <div class="main">
+            <p>スポラボ放送局：３つの特徴</p>
+        </div>
+        <div class="card">
+            <div class="head">
+                <p>特徴：１</p>
+            </div>
+            <div class="top">
+                <p>どこにいても学習できる</p>
+            </div>
+            <div class="img-box">
+                <img src="img/sample.jpg" alt="">
+            </div>
+            <div class="message">
+                <p>今まではセミナーにきていただかないとあらゆるノウハウの勉強が難しいという状況にありました。</p>
+                <p>しかし今回、オンライン体制を導入したことにより、セミナーに参加できない方にも学習していただける環境を整えました。</p>
+                <p>放送局でも、場所時間を問わず学んでいただけるようになりました。</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="head">
+                <p>特徴：２</p>
+            </div>
+            <div class="top">
+                <p>何度でも見直すことができる</p>
+            </div>
+            <div class="img-box">
+                <img src="img/mqdefault12.jpg" alt="">
+            </div>
+            <div class="message">
+                <p>スポラボ放送局では参加してくださっている限りいつでも、何度でも映像を見返していただけます。</p>
+                <p>たとえ忘れてしまったところがあっても部分的に見返すことも可能ですし、現場でちょうど使う部分を学びなおすといったこともできます。</p>
+                <p>さらに、毎月テーマが更新されるので広範囲の知識を、継続的に学んでいただくことが可能となっています。</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="head">
+                <p>特徴：３</p>
+            </div>
+            <div class="top">
+                <p>充実したコンテンツ</p>
+            </div>
+            <div class="img-box">
+                <img src="img/-2018-09-29-14.57.20.png" alt="">
+            </div>
+            <div class="message">
+                <p>ノウハウの中には他組織によるセミナー、スポラボセミナーでお伝えできていないものもたくさん含まれています。</p>
+                <p class="list_top">例：2019年1月</p>
+                <ul>
+                    <li>プロ講師による特別オンライン講義</li>
+                    <li>プロ講師によるモデルを起用した臨床・技術指導</li>
+                    <li>各月のテーマに関係するセミナー動画</li>
+                    <li>講師への質問権利</li>
+                    <li>放送局の内容リクエスト権利</li>
+                </ul>
+                <p>といったことが可能となり、現場での指導やノウハウの細かい部分までお届けします。</p>
+                <p>わからないところは、講師の方に質問することも可能としました。</p>
+            </div>
+        </div>
+    </section>
+    <section class="conF" id="gifts">
+        <div class="card">
+            <div class="main">
+                <p>限定特典</p>
+            </div>
+            <div class="contents">
+                <div class="message">
+                    <div class="circle">
+                        <p>１</p>
+                    </div>
+                    <div class="topic">
+                        <p>セミナー動画<br class="br-sp">10本</p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="circle">
+                        <p>２</p>
+                    </div>
+                    <div class="topic">
+                        <p>2018年度<br class="br-sp">８月テーマの<br class="br-sp">無料公開</p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="circle">
+                        <p>３</p>
+                    </div>
+                    <div class="topic">
+                        <p>スポラボ3000円<br class="br-sp">チケット</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="conG" id="enter">
+        <div class="main">
+            <div class="top">
+                <h1>ご満足いただけなかった場合の返金保証あり</h1>
+            </div>
+            <div class="img-box">
+                <img src="img/hunters-race-408744-unsplash.jpg" alt="">
+            </div>
+            <div class="message">
+                <p>
+                    映像を含む、毎月１テーマのコンテンツを
+                    <br>あなたには学んでいただけます！
+                </p>
+                <p class="atention">
+                    ただしその月のコンテンツに<br class="br-sp">ご満足いただけなかった場合は、
+                </p>
+                <p>
+                    返金保証終了日までに事務所にご連絡ください。
+                    <br>確認後、返金のご案内をさせていただきます。
+                </p>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="link_1">
+                <button>
+                    <a>詳細な案内メールをご希望の方 <i class="fas fa-chevron-right"></i></a>
+                </button>
+            </div>
+            <div class="link_2">
+                <button>
+                    <a href="https://paymo.life/shops/zXmXO08Puv/S8e2Yv1HoX">入会をご希望の方 <i class="fas fa-chevron-right"></i></a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2019 一般社団法人スポーツサイエンスラボラトリー</p> 
+    </footer>
+</body>
+</html>
